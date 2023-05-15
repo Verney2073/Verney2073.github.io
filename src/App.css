@@ -1,0 +1,39 @@
+* {
+  margin: 5px auto;
+  color: white;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 650px;
+  background-color: #02090e;
+}
+
+ul {
+  list-style: none;
+  padding: 1%
+}
+
+.clicked {
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+
+.main-container {
+  height: 100%;
+}
+
+.game-settings-and-player-action-container{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.primary-color {
+  color:  #4BB1E1 
+}
